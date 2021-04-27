@@ -4,26 +4,25 @@
 
 ## Description
 
-I built this app so that I could partially automate the task of creating README files for future projects. I purposely built it so I could omit sections and they would automatically not appear in body of the README and the Table of Contents. During the process I learned a lot about node.js, working without a browser, json, npm and Inquirer. Everything in this README except for the video link was made with this app.
-
-## Table of Contents
-
-- [Description](#description)
-
-- [Usage](#usage)
-- [Contributing](#contributing)
-
-- [Questions](#questions)
-- [License](#license)
+This app was developed so that the user would be able to subtract or add money from their budget and those transactions would appear and be graphed both online and offline. For this application I utilized IndexedDB, a manifest.webmanifest file and service workers.
 
 ## Usage
 
-Type node index.js into the command line and then answer the prompts to create a README file with that information in it.  
-[VIDEO DEMO](https://drive.google.com/file/d/1wa0fz7ppLetThCr3q_Mz5cgE443bKaNK/view?usp=sharing)
+You can enter information about your transactions offline.</br>
+![offline](public/images/offline.png)</br>
+You can see those changes offline.</br>
+![online entered](public/images/offline-entered.png)</br>
+And when the internet is turned back on those changes will be saved to the database.</br>
+![online](public/images/online.png)</br>
+
+You can visit the app [HERE!](https://petemodavis-budget-tracker.herokuapp.com/)
 
 ## Contributing
 
-Inquirer.js
+[MongooseJS](https://mongoosejs.com/)</br>
+[ExpressJS](https://expressjs.com/)</br>
+[Compression](https://www.npmjs.com/package/compression)</br>
+[Morgan](https://www.npmjs.com/package/morgan)</br>
 
 ## Questions
 
@@ -52,3 +51,9 @@ MIT License
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+
+## Badges
+
+![MIT](https://img.shields.io/badge/Javascript-78.5%-green)
+![MIT](https://img.shields.io/badge/CSS-4.6%-red)
+![MIT](https://img.shields.io/badge/HTML-16.9%-yellow)
