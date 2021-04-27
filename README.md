@@ -54,6 +54,6 @@ MIT License
 
 ## Badges
 
-![MIT](https://img.shields.io/badge/Javascript-78.5%-green)
-![MIT](https://img.shields.io/badge/CSS-4.6%-red)
-![MIT](https://img.shields.io/badge/HTML-16.9%-yellow)
+![Javascript](https://img.shields.io/badge/Javascript-78.5%-green)
+![CSS](https://img.shields.io/badge/CSS-4.6%-red)
+![HTML](https://img.shields.io/badge/HTML-16.9%-yellow)
